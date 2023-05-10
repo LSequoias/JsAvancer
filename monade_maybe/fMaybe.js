@@ -46,4 +46,15 @@ const checkVille = maybe(person)
     .getOrElse("ville inconnue")
 ;
 
-console.log(`nom => ${checkName} \nville => ${checkVille}`);
+// simplement pour tester la valeur sur la page html
+((arg) => {
+    const root = document.getElementById(`${arg}`);
+    const p = document.createElement('p');
+    const p2 = document.createElement('p');
+    root.append(p);
+    root.append(p2);
+    p.textContent = `nom: ${checkName}`;
+    p2.textContent = `ville: ${checkVille}`;
+    console.log(root)
+
+})('block')
