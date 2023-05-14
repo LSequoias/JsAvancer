@@ -1,0 +1,115 @@
+:root {
+  --no-marge: 0;
+  --fs1: 1.8rem;
+  --fs2: 1.5rem;
+  --fs3: 1.2rem;
+  --small: 100;
+  --bold: 500;
+  --primary: rgb(49, 83, 147);
+  --sec: rgb(128, 0, 41);
+  --tier: #256878;
+}
+
+html, body {
+  padding: var(--no-padding);
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*=0 display */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  margin: 2rem auto;
+  padding: var(--no-marge) 5rem;
+  background-color: #ddd;
+  box-shadow: 3px 3px yellowgreen, -3px -3px pink;
+}
+
+.mediaContent {
+  margin: var(--no-marge);
+  padding: var(--no-marge);
+  width: 100%;
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.resultat {
+  text-align: center;
+  color: grey;
+  font-style: italic;
+  font-weight: var(--small);
+}
+
+.center {
+  display: flex;
+  justify-content: space-evenly;
+  margin: .5rem auto;
+}
+
+.button {
+  padding: .3rem .8rem;
+  border-radius: 25px;
+  color: whitesmoke;
+  background-color: #111;
+  border: 4px double whitesmoke;
+}
+
+/* =1 typography */
+.title  {
+  font-size: var(--fs1);
+}
+
+.subtitle {
+  font-size: var(--fs2);
+}
+
+.paragraph {
+  font-size: var(--fs3);
+  margin: 3rem auto;
+}
+
+.title, .subtitle, .paragraph {
+  font-weight: calc(var(--small) * 3);
+}
+.title, .subtitle {
+  letter-spacing: 1.5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.met, .key, .prop {
+  font-weight: var(--bold);
+}
+
+.met {
+  color: var(--primary);
+}
+
+.key {
+  color: var(--sec);
+}
+.prop {
+  color: var(--tier);
+}
+.under {
+  text-decoration:underline;
+}
+
+.note {
+  margin:0;
+}
