@@ -1,7 +1,7 @@
 ![uses-js](https://github.com/LSequoias/JsAvancer/assets/108955634/d00f5dab-0b49-40e2-a7d4-28587c6b02d5)
 
 # JsAvancer
-Dépot pour le javascript fonctionnel, monade, fonction génératrice, closure et cie.
+Dépot pour le javascript fonctionnel, monade, fonction génératrice, closure et cie. Le but est d'expérimentée, comprendre et trouver des alternatives à la programmations réactives qu'offre React et SolidJs.   
 
 ## Contributions
 Aucune.
