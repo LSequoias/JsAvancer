@@ -1,7 +1,7 @@
 # JsAvancer
 
 ### monade Maybe
-
+<cite>Le pire ennemi des dev javascript, c'est le type undefined</cite>  
 La monade maybe permet de traitée les valeurs null ou non null avant leurs éxecutions.  
 
 #### Déclaration d'un objet as traité.
