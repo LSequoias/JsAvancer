@@ -1,7 +1,7 @@
 # JsAvancer
+_Le pire ennemi que l'on peu trouver un javascript, c'est le type undefined. Pour pallier à ce soucie ont se voient souvent contraint d'appliquée le type null. La monade maybe peu pallier à ce genre de tracas, bien sûr ce n'est pas une solution friendly et comporte quelques defauts, sa principal qualité etant sa résillience si elle est réaliser correctement, avec ça difficile de se plantée._   
 
-### monade Maybe
-<cite>Le pire ennemi des dev javascript, c'est le type undefined</cite>  
+### monade Maybe 
 La monade maybe permet de traitée les valeurs null ou non null avant leurs éxecutions.  
 
 #### Déclaration d'un objet as traité.
